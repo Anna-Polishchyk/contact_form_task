@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact_form</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <form class="form">
+            <h2 class="form__header">Contact Us</h2>
+            <p class="form__text">The Voodoo team is looking forward to hearing from you!</p>
+            <div class="wrapper">
+                <input class="form__input" type="text" name="name" placeholder="Full Name*">
+                <input class="form__input" type="text" name="title" placeholder="Title/Position*">
+                <!-- <select id="list">
+                    <option value="">Practice / Institution*</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Option 4</option>
+                    <option value="5">Option 5</option>
+                </select> -->
+                <div class="select is-active">
+                    <div class="select__header">
+                        <span class="select__current">Practice / Institution*</span>
+                        <div class="select__icon"><svg width="10" height="6"><use href="./images/icon-Shape.svg#icon-Shape"></use></svg></div>
+                    </div>
+
+                    <div class="select__body">
+                        <div class="select__item">Option 1</div>
+                        <div class="select__item">Option 2</div>
+                        <div class="select__item">Option 3</div>
+                        <div class="select__item">Option 4</div>
+                        <div class="select__item">Option 5</div>
+                    </div>
+                </div>
+                <input class="form__input" type="email" name="email" placeholder="Email Address*" />
+                <input class="form__input" type="tel" name="phone_number" placeholder="Phone Number*">
+                <!-- <select id="">
+                    <option value="">Medical Profession*</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Option 4</option>
+                    <option value="5">Option 5</option>
+                </select> -->
+                <div class="select is-active">
+                    <div class="select__header">
+                        <span class="select__current">Medical Profession*</span>
+                        <div class="select__icon"><svg width="10" height="6"><use href="./images/icon-Shape.svg#icon-Shape"></use></svg></div>
+                    </div>
+
+                    <div class="select__body">
+                        <div class="select__item">Option 1</div>
+                        <div class="select__item">Option 2</div>
+                        <div class="select__item">Option 3</div>
+                        <div class="select__item">Option 4</div>
+                        <div class="select__item">Option 5</div>
+                    </div>
+                </div>
+                <!-- <select  id="list">
+                    <option value="">Type of Inquiry*</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Option 4</option>
+                    <option value="5">Option 5</option>
+                </select> -->
+                <div class="select is-active grid-input">
+                    <div class="select__header">
+                        <span class="select__current">Type of Inquiry*</span>
+                        <div class="select__icon">
+                            <svg width="10" height="6"><use href="./images/icon-Shape.svg#icon-Shape"></use></svg>
+                        </div>
+                    </div>
+
+                    <div class="select__body">
+                        <div class="select__item">Option 1</div>
+                        <div class="select__item">Option 2</div>
+                        <div class="select__item">Option 3</div>
+                        <div class="select__item">Option 4</div>
+                        <div class="select__item">Option 5</div>
+                </div></div>
+                <textarea class="textarea" name="comment" id="comment" rows="17"
+                    placeholder="Enter Message*"></textarea>
+        
+        <button class="form__button" type="submit">Send Message</button></form>
+    </div>
+    <div class="map" id="map"></div>
+    <!-- <div class="map__infowindow">
+            <p class="company-name" > Voodoo</p >
+                <p class="company-adress">137 Glasgow St., Unit 115 <br> Kitchener, ON N2G 4X8 <br>Ukraine</p>
+                    <ul class="contacts__list list">
+                        <li class="contacts--item">
+                            <a href="tel:1-800-480-9597" class="contacts--link link">
+                                1-800-480-9597</a
+                            >
+                        </li>
+                        <li class="contacts__item contacts-item__mail">
+                            <a href="mailto:info@voodoo.com" class="contacts--link link">
+                                info@voodoo.com </a>
+                        </li>
+                    </ul>
+                </div> -->
+    <script src="./js/custom_select.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyaBcYH2GliV4hFfFaXF7lAlIrtCS0rSo&callback=initMap&v=weekly"
+        defer></script>
+    <script src="./js/initMap.js"></script>
+</body>
+
+</html>

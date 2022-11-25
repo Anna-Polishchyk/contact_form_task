@@ -1,0 +1,88 @@
+[
+        {
+            "elementType": "geometry.stroke",
+            "stylers": [
+                {
+                    "color": "#f2f2f2"
+                }
+            ]
+        },
+        {
+            "elementType": "labels.icon",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "elementType": "labels.text",
+            "stylers": [
+                {
+                    "color": "#bababa"
+                }
+            ]
+        },
+        {
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "administrative.land_parcel",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "color": "#e9fbec"
+                }
+            ]
+        },
+        {
+            "featureType": "administrative.land_parcel",
+            "elementType": "geometry.stroke",
+            "stylers": [
+                {
+                    "color": "#e9fbec"
+                }
+            ]
+        },
+        {
+            "featureType": "landscape.man_made",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "color": "#fffef5"
+                }
+            ]
+        },
+        {
+            "featureType": "landscape.natural",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "color": "#e9fbec"
+                }
+            ]
+        },
+        {
+            "featureType": "landscape.natural",
+            "elementType": "geometry.stroke",
+            "stylers": [
+                {
+                    "color": "#f9f8eb"
+                }
+            ]
+        },
+        {
+            "featureType": "water",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "color": "#e7fcfd"
+                }
+            ]
+        }
+    ]
